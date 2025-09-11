@@ -1,0 +1,22 @@
+{
+  "architectures": ["NanoGPTMoE"],
+  "model_type": "nanogpt_moe",
+  "vocab_size": 2048,
+  "n_embed": 256,
+  "n_heads": 8,
+  "n_layers": 12,
+  "block_size": 1080,
+  "dropout": 0.1,
+  "n_experts": 8,
+  "top_k": 2,
+  "torch_dtype": "float32",
+  "transformers_version": "4.36.2",
+  "use_cache": true,
+  "dataset": "roneneldan/TinyStories",
+  "training_steps": 55636,
+  "validation_loss": 0.2739,
+  "training_loss": 0.3463,
+  "parameters": "134.6M",
+  "tokenizer_type": "BPE",
+  "special_tokens": ["<|unknown|>", "<|im_start|>", "<|im_end|>"]
+}
